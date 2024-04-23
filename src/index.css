@@ -1,0 +1,40 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  --bg: #242629;
+  --head: #fffffe;
+  --cardBg: #16161a;
+  --p: #94a1b2;
+  --btn: #7f5af0;
+  --secondary: #72757e;
+  --tertiary: #2cb67d;
+  }
+
+
+body {
+  background-image: linear-gradient(
+    217deg,
+    hsl(240deg 8% 9%) 14%,
+    hsl(253deg 37% 20%) 43%,
+    hsl(254deg 41% 27%) 54%,
+    hsl(254deg 43% 32%) 62%,
+    hsl(254deg 43% 37%) 67%,
+    hsl(255deg 44% 41%) 72%,
+    hsl(255deg 44% 45%) 75%,
+    hsl(255deg 45% 48%) 78%,
+    hsl(255deg 47% 51%) 81%,
+    hsl(255deg 53% 54%) 84%,
+    hsl(255deg 60% 57%) 87%,
+    hsl(255deg 67% 60%) 90%,
+    hsl(255deg 75% 62%) 94%,
+    hsl(255deg 83% 65%) 100%
+  );
+  color: var(--head);
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
