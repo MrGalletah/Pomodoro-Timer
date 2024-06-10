@@ -30,6 +30,8 @@ body {
     hsl(255deg 75% 62%) 94%,
     hsl(255deg 83% 65%) 100%
   );
+  box-sizing: border-box;
+  background-repeat: no-repeat;
   color: var(--head);
   margin: 0;
   display: flex;
